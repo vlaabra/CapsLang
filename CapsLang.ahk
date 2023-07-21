@@ -1,7 +1,7 @@
-SetCapsLockState, AlwaysOff
+SetCapsLockState 'AlwaysOff'
 +CapsLock::CapsLock
 
-CapsLock::Send, {Ctrl down}{Shift down}{Shift up}{Ctrl up}{Alt down}{Shift down}{Shift up}{Alt up}
+CapsLock::Send '{LWin down}{Space down}{Space up}{LWin up}'
 return
 
 :*:va-@::vladimir.abramyan@gmail.com
